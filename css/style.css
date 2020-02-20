@@ -88,6 +88,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8;
 }
 
+.card {
+  background-color: #fff;
+  padding: 1rem;
+}
+
 /* Navigation */
 #main-nav {
   background-color: white;
@@ -171,6 +176,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
+/* Home Articles */
+#home-articles .articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
 
-
+#home-articles .articles-container > *:first-child {
+  displau
+}
 
